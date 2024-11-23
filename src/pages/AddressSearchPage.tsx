@@ -73,6 +73,8 @@ const AddressSearchPage = () => {
       )}
       {modalOpen && selectedPlace && <AddressPopup place={selectedPlace} />}
     </S.SearchContainer>
+
+    // 주소 페이지 인터랙션 구현
   );
 };
 export default AddressSearchPage;
